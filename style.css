@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+*{
+    margin : 0px ;
+    padding :0px ;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    /* background-color : darkmagenta ; */
+    height : 10vh ;
+    width: 100%;
+    
+    margin : auto ;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.container h1{
+    /* background-color: white ; */
+    margin-top : 70px ;
+    letter-spacing: 2px ;
+    color : rgb(168, 156, 235) ;
+    padding-bottom : 10px  ;
+    align-items: center;
+    text-align: center;
+}
+#search{
+    width : 100% ;
+    height : 40px ;
+    padding : 10px ;
+    /* margin : 0px 10px ; */
+}
+.flex{
+    display: flex;
+}
+input, button{
+    border : solid white ;
+    padding: 8px 10px ;
+    margin : 10px ;
+    /* border-radius: 15px ; */
+    /* border-style: none; */
+}
+input[type='text']{
+    width : 100% ;
+}
+.search-btn:hover
+{
+    color: white;
+    cursor: pointer;
+    background-color: transparent ;
+}
+.random-btn:hover{
+    color:white;
+    cursor: pointer;
+    background-color: transparent ;
+}
+
+#result-heading{
+    /* background-color: yellow; */
+    top : 10px ;
+    height : 5vh ;
+    color : burlywood ;
+    font-weight: lighter;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 100px ;
+    /* line-height: 20px; */
+}
+
+#meal{
+    width : 100% ;
+    /* margin : auto ; */
+    /* background-color: red ; */
+     padding : 5px 2px ;
+     display : grid ;
+     justify-content: space-around;
+     align-items: center;
+     text-align: center;
+     grid-template-columns: 1fr 1fr 1fr ;
+}
+#img-meal,img{
+    height : 40vh;
+    width : 300px ;
+    
+}
+img:hover{
+    padding : 20px ;
+    background-color: transparent;
+    border : 1px solid #d5d5d5 ;
+}
+p{
+    color : white ;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(218, 204, 204)(224, 199, 199);
+    margin : 10px 0px ;
+}
+
+#single-meal{
+   
+    position: relative;
+    width : 80% ;
+    margin : auto ;
+   /* background-image: linear-gradient(white,blue) ; */
+   background-color: black;
+    text-align: center;
+    align-items: center;
+}
+#single-meal h4,h1{
+    
+    color : rgb(60, 186, 245);
+    letter-spacing: 2px ;
+    font-weight: 1000;
+}
+.ingredient ul li{
+    list-style: none;
+    height : 8vh ;
+    font-size: 20px ;
+    color : white ;
+}
+.foodimage:hover{
+    background-color: transparent;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
